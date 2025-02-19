@@ -1,0 +1,7 @@
+Este package proviene de:
+
+Ejercicio 2: Clase Vehículo y Moto en Diferentes Paquetes
+1. Define una clase Vehículo en el paquete vehiculos con la propiedad tipo de paquete.
+2. Define una clase Moto en el paquete vehiculos que herede de Vehículo.
+
+Crea una clase de prueba en otro paquete e intenta acceder a los miembros de Vehículo y Moto. Observa los errores de compilación y discute por qué suceden.

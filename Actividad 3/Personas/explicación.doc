@@ -1,0 +1,28 @@
+ public static void main(String[] args) {
+        limpiarPantalla();
+        Persona persona = new Persona();
+        
+        //Asignación de la edad
+        persona.edad = 28;
+
+        //Forma érronea de acceder a este atributo (Explicado en el documento explicación.doc)
+        persona.nombre = "Iván";
+
+        * Explicación: esto se debe a que el nombre está declarado como "private":
+        entonces no se podrá acceder desde otro archivo ya que se hace invisible, 
+        solo se puede acceder con un método!
+        Si lo comparamos con la edad, es un atributo default, entonces si puedo acceder
+        desde otro archivo.
+        OJO: sólo desde otro archivo del mismo package, si quiero acceder desde otra
+        package tendría que declararlo "public".
+
+        //Forma correcta
+        persona.setNombre("Iván");
+
+        * Esta es la verdadera forma de poder acceder a la variable nombre:
+        con el set para dar la variable y el get para obtener la que está.
+
+        persona.verInfo();
+        System.out.println("");
+
+    }
