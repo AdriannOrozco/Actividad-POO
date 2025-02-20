@@ -1,0 +1,14 @@
+He intentado acceder directamente a "NumeroCuenta", pero claramente no lo logré
+ya que ha sido declarado tipo "private". Sólo podré acceder con los métodos set y get.
+
+
+    * CASO 1:
+    System.out.println(cuenta.tipoCuenta);
+Aquí puedo acceder ya que es tipo "Public".
+
+    * CASO 2:
+    System.out.println(cuenta.getSaldo());
+Aquí puedo acceder a un atributo privado gracias a los métodos de acceso.
+
+En conclusión no se puede acceder al "NumeroCuenta" porque es privado, solo se
+logra si se cambia a Public, o se crean métodos de acceso.
