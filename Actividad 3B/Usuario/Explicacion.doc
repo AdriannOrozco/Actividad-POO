@@ -1,0 +1,11 @@
+Antes de pasar a la explicación revisar:
+1. erroClaseRecepcionista.jpg
+2. erroCompilacion.jpg
+
+Podemos ver que esto da un error ya que se supone que debería compilarle al recepcionista
+otro escrito, pero esto se da porque se hizo fue una "sobrecarga de método" y no 
+de "sobrescritura de un método" ya que a diferencia de la clase génerica, en la clase 
+derivada, se ha añado un dato tipo String, que no viene de la clase Usuario.
+
+Por ende va tomar el método Mensaje() de la clase Padre!
+Para solucionar esto debemos quitar el párametro y tener la misma firma que la clase Padre.
