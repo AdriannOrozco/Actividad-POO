@@ -1,0 +1,4 @@
+En la foto se puede ver claramente que no se puede acceder a los atributos,
+ya que estos son tipos "Protected", entonces lo ideal es que se cree un método
+público que imprima los datos y reescribirlo en la clase hija.
+O cambiar atributos por "Public" o usar métodos de acceso.
