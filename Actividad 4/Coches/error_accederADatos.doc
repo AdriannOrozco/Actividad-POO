@@ -1,0 +1,6 @@
+(Antes de leer, revisar el jpg donde se ve el error (Formato jgp))
+
+Claramente la compilación nos genera error ya que hemos declarado los atributos
+tipo "private", obviamente al intentar acceder desde otro archivo, nos va generar
+error ya que están protegidos. La única forma de solucionar ese error es:
+- Creando los métodos de acceso (get y set).

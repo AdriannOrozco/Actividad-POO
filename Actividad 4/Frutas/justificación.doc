@@ -1,0 +1,9 @@
+En la clase "Fruta" se puede ver una propiedad privada llamada nombre, la cual
+solo puede ser accedida por la misma clase, sin los métodos get y set, será
+imposible acceder a la misma, ya que son los métodos de acceso para propiedades
+tipo private.
+
+En este ejercicio 3, hay 2 alternativas!
+
+- cambiar el "private String nombre" a "public String nombre".
+- O crear el get y set para la variable nombre.
